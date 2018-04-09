@@ -12,9 +12,9 @@ jobs:
       - run:
           name: install dependencies
           command: |
-          virtualenv venv
-          venv/bin/pip install -r requirements.txt
-          . venv/bin/activate
+            virtualenv venv
+            venv/bin/pip install -r requirements.txt
+            . venv/bin/activate
       - run:
           name: run tests
           command: nosetests
