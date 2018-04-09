@@ -21,9 +21,9 @@ TEST_GET_JOBS_RETURN = """
     "build_parameters": {
         "CIRCLE_JOB": "job1"
     },
-    "build_url": "https://circleci.com/gh/TriggerMail/trigger_mail/4464",
+    "build_url": "https://circleci.com/gh/Org/project/4464",
     "canceled": false,
-    "compare": "https://github.com/TriggerMail/selenium_tests/compare/george-t123",
+    "compare": "https://github.com/Org/project/compare/george-t123",
     "messages": [],
     "parallel": 5,
     "platform": "2.0",
@@ -39,9 +39,9 @@ TEST_GET_JOBS_RETURN = """
     "build_parameters": {
         "CIRCLE_JOB": "job1"
     },
-    "build_url": "https://circleci.com/gh/TriggerMail/trigger_mail/4466",
+    "build_url": "https://circleci.com/gh/Org/project/4466",
     "canceled": false,
-    "compare": "https://github.com/TriggerMail/selenium_tests/compare/george-t123",
+    "compare": "https://github.com/Org/project/compare/george-t123",
     "messages": [],
     "parallel": 5,
     "platform": "2.0",
@@ -57,9 +57,9 @@ TEST_GET_JOBS_RETURN = """
     "build_parameters": {
         "CIRCLE_JOB": "job1"
     },
-    "build_url": "https://circleci.com/gh/TriggerMail/trigger_mail/4466",
+    "build_url": "https://circleci.com/gh/Org/project/4466",
     "canceled": false,
-    "compare": "https://github.com/TriggerMail/selenium_tests/compare/george-t123",
+    "compare": "https://github.com/Org/project/compare/george-t123",
     "messages": [],
     "parallel": 5,
     "platform": "2.0",
