@@ -1,0 +1,21 @@
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7.14-jessie
+    working_directory: ~/circleci-tools
+
+    steps:
+      - checkout
+
+      - run:
+          name: install dependencies
+          command: pip install -r requirements.txt
+      - run:
+          name: run tests
+          command: nosetests
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
+
