@@ -14,10 +14,11 @@ jobs:
           command: |
             virtualenv venv
             venv/bin/pip install -r requirements.txt
-            . venv/bin/activate
       - run:
           name: run tests
-          command: nosetests
+          command: |
+            . venv/bin/activate
+            nosetests
       - store_artifacts:
           path: test-reports
           destination: test-reports
