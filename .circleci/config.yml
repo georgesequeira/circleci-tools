@@ -18,8 +18,8 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            nosetests
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
+            mkdir test_results
+            nosetests --xunitmp-file=test_results/nose.xml --with-xunitmp
+      - store_test_results:
+          path: test_results
 
